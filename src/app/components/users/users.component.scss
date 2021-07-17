@@ -1,0 +1,29 @@
+.mat-table {
+  width: 100%;
+}
+.block {
+  height: calc(100vh - 160px);
+  border-radius: 10px;
+  margin: 16px;
+  margin-left: 32px;
+
+  display: flex;
+  flex-direction: column;
+}
+.menu-button {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+
+  mat-icon {
+    margin-right: 8px;
+  }
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  align-items: center;
+}
